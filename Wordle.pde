@@ -37,26 +37,25 @@ void draw()
   fonts[5] = windsong;
   fonts[6] = magic;
   
-  String [] hPWords = readTxt("HPandSS.txt");               // Reads in file from the project folder
-  String[] sortedWords = sortAndTruncate(hPWords);         // Uses the sort and Truncate method to get rid of repeated words
-  int[] frequencyWord = frequency(hPWords);                // Uses the frequency method to determine the frequency of the word in the text
-  String [] wordsOnScreen = new String[0];
-  int[] freqWordsOnScreen = new int[0];
-  //printArray(sortedWords);
-  //printArray(frequencyWord);
-  for(int index = 0; index < frequencyWord.length - 1; index++) 
-  {
+  String [] hPWords = readTxt("listOWords.txt");  // Reads in file from the project folder
+  //String[] sortedWords = sortAndTruncate(hPWords);         // Uses the sort and Truncate method to get rid of repeated words
+  //int[] frequencyWord = frequency(hPWords);                // Uses the frequency method to determine the frequency of the word in the text
+  //String [] wordsOnScreen = new String[0];
+  //int[] freqWordsOnScreen = new int[0];
+  
+  //for(int index = 0; index < frequencyWord.length - 1; index++) 
+  //{
     
-    if(frequencyWord[index] > 60) 
-    {
-      wordsOnScreen = append(wordsOnScreen, sortedWords[index]);
-      freqWordsOnScreen = append(freqWordsOnScreen, frequencyWord[index]);
+  //  if(frequencyWord[index] > 80) 
+  //  {
+  //    wordsOnScreen = append(wordsOnScreen, sortedWords[index]);
+  //    freqWordsOnScreen = append(freqWordsOnScreen, frequencyWord[index]);
       
-    }
+  //  }
     
-  }
-  printArray(wordsOnScreen);
-  println(wordsOnScreen.length);
+  //}
+  
+  
   
   for(int display = 0; display < 100; display++) 
   {

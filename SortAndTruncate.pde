@@ -9,7 +9,7 @@ String[] sortAndTruncate(String[] a){
             for (int k = current + 1; k < a.length; k++)  // Goes through the list and moves the strings around so that they are in order by what word they are
             {
               x = 1;                                  // Keeps up with the position that the value should be in
-                if (a[pos].equals(a[k]) && k > pos){                 // If the value at k is equal to the value at pos move the item
+                if (a[pos].equalsIgnoreCase(a[k]) && k > pos){                 // If the value at k is equal to the value at pos move the item
                     String temp = a[pos + x];             // Temporarily stores the value currently at the position into a variable
                     a[pos + x] = a[k];                    // Swaps the values through the next two lines
                     a[k] = temp;
@@ -25,7 +25,7 @@ String[] sortAndTruncate(String[] a){
             { 
               if (pos < a.length)
               {
-                if (a[pos].equals(a[value]) && value > pos)
+                if (a[pos].equalsIgnoreCase(a[value]) && value > pos)
                 {
                   String temp = a[value];
                   a[value] = a[a.length - 1];
