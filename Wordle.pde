@@ -7,19 +7,26 @@ PFont windsong;
 PFont magic;
 PFont lumos2;
 PFont aquiline2;
+PFont magic2;
+PFont charms2;
+PFont magicSchool2;
 
 void setup()
 {
   background(255);
   harryPotter = createFont("HARRYP__.TTF", 40);
   charms = createFont("Achafont.ttf", 75);
+  charms2 = createFont("Achafont.ttf", 35);
   aquiline = createFont("AquilineTwo.ttf", 50);
   aquiline2 = createFont("AquilineTwo.ttf", 30);
   lumos31 = createFont("LUMOS.TTF", 31);
   lumos2 = createFont("LUMOS.TTF", 25);
   magicSchool = createFont("MagicSchoolOne.ttf", 40);
+  magicSchool2 = createFont("MagicSchoolOne.ttf", 15);
   windsong = createFont("Windsong.ttf", 42);
   magic = createFont("Wizards Magic.ttf", 25);
+  magic2 = createFont("Wizards Magic.ttf", 15);
+  
   
   
   
@@ -131,6 +138,182 @@ void draw()
     textFont(aquiline2);
     text(hPWords[12], 0, 0);
     popMatrix();
+    
+    pushMatrix();
+    translate(710, 400);
+    rotate(radians(-95));
+    textFont(magicSchool);
+    text(hPWords[5], 0, 0);
+    popMatrix();
+    
+    pushMatrix();
+    translate(700, 265);
+    rotate(radians(-90));
+    textFont(lumos2);
+    text(hPWords[6], 0, 0);
+    popMatrix();
+    
+    pushMatrix();
+    translate(705, 85);
+    rotate(radians(13));
+    textFont(magic2);
+    text(hPWords[48], 0, 0);
+    popMatrix();
+    
+    pushMatrix();
+    translate(775, 105);
+    rotate(radians(13));
+    textFont(windsong);
+    text(hPWords[15], 0, 0);
+    popMatrix();
+    
+    pushMatrix();
+    translate(775, 75);
+    rotate(radians(30));
+    textFont(harryPotter);
+    text(hPWords[29], 0, 0);
+    popMatrix();
+    
+    pushMatrix();
+    translate(700, 40);
+    rotate(radians(22));
+    textFont(charms2);
+    text(hPWords[14], 0, 0);
+    popMatrix();
+    
+    pushMatrix();
+    translate(605, 45);
+    rotate(radians(-8));
+    textFont(aquiline2);
+    text(hPWords[45], 0, 0);
+    popMatrix();
+    
+    pushMatrix();
+    translate(700, 60);
+    rotate(radians(20));
+    textFont(magicSchool2);
+    text(hPWords[51], 0, 0);
+    popMatrix();
+    
+    
+    pushMatrix();
+    translate(550, 160);
+    rotate(radians(-45));
+    textFont(lumos2);
+    text(hPWords[31], 0, 0);
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    translate(680, 160);
+    rotate(radians(-92));
+    textFont(magic);
+    text(hPWords[36], 0, 0);
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
+    
+    
+    pushMatrix();
+    
+    popMatrix();
+    
     
   //}
   
