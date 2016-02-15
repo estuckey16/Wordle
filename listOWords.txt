@@ -41,7 +41,7 @@ Ollivander's
 NevilleLongbottom
 WizardChess
 Hogsmeade
-ShreakingShack
+ShriekingShack
 Potions
 Cauldron
 Train
@@ -49,3 +49,5 @@ Thestrals
 Trelawney
 MirrorOfErisid
 Butterbeer
+DiagonAlley
+Scabbers
