@@ -10,11 +10,13 @@ PFont aquiline2;
 PFont magic2;
 PFont charms2;
 PFont magicSchool2;
+PFont harryPotter2;
 
 void setup()
 {
   background(255);
   harryPotter = createFont("HARRYP__.TTF", 40);
+  harryPotter2 = createFont("HARRYP__.TTF", 70);
   charms = createFont("Achafont.ttf", 75);
   charms2 = createFont("Achafont.ttf", 35);
   aquiline = createFont("AquilineTwo.ttf", 50);
@@ -215,105 +217,133 @@ void draw()
     
     
     pushMatrix();
-    
+    translate(600, 160);
+    rotate(radians(-45));
+    textFont(windsong);
+    text(hPWords[24], 0, 0);
     popMatrix();
     
     
     
     pushMatrix();
-    
+    translate(510, 200);
+    textFont(harryPotter);
+    text(hPWords[49], 0, 0);    
     popMatrix();
     
     
     
     pushMatrix();
-    
+    translate(390, 410);
+    rotate(radians(-57));
+    textFont(charms);
+    text(hPWords[2], 0, 0);
     popMatrix();
     
     
     
     pushMatrix();
-    
+    translate(640, 200);
+    rotate(radians(85));
+    textFont(aquiline2);
+    text(hPWords[34], 0, 0);
     popMatrix();
     
     
     
     pushMatrix();
-    
+    translate(500, 310);
+    rotate(radians(-45));
+    textFont(magicSchool);
+    text(hPWords[11], 0, 0);
     popMatrix();
     
     
     
     pushMatrix();
-    
+    translate(550, 320);
+    rotate(radians(-55));
+    textFont(lumos2);
+    text(hPWords[25], 0, 0);
     popMatrix();
-    
     
     
     pushMatrix();
-    
+    translate(600, 270);
+    rotate(radians(85));
+    textFont(magic);
+    text(hPWords[8], 0, 0);
     popMatrix();
-    
     
     
     pushMatrix();
-    
+    translate(645, 330);
+    rotate(radians(80));
+    textFont(windsong);
+    text(hPWords[26], 0, 0);
     popMatrix();
-    
     
     
     pushMatrix();
-    
+    translate(450, 360);
+    textFont(harryPotter2);
+    text(hPWords[21], 0, 0);
     popMatrix();
-    
     
     
     pushMatrix();
-    
+    translate(520, 385);
+    textFont(charms2);
+    text(hPWords[10], 0, 0);
     popMatrix();
-    
     
     
     pushMatrix();
-    
+    translate(370, 440);
+    textFont(aquiline);
+    text(hPWords[40], 0, 0);
     popMatrix();
-    
-    
     
     pushMatrix();
-    
+    translate(300, 470);
+    textFont(magicSchool);
+    text(hPWords[27], 0, 0);
     popMatrix();
-    
-    
     
     pushMatrix();
-    
+    translate(430, 390);
+    rotate(radians(-5));
+    textFont(lumos2);
+    text(hPWords[20], 0, 0);
     popMatrix();
-    
-    
     
     pushMatrix();
-    
+    translate(830, 115);
+    rotate(radians(30));
+    textFont(magic);
+    text(hPWords[44], 0, 0);
     popMatrix();
     
     
-    
-    pushMatrix();
-    
-    popMatrix();
-    
-    
-    
-    pushMatrix();
-    
-    popMatrix();
+    //pushMatrix();
+    //translate();
+    //textFont();
+    //text();
+    //popMatrix();
     
     
+    //pushMatrix();
+    //translate();
+    //textFont();
+    //text();
+    //popMatrix();
     
-    pushMatrix();
     
-    popMatrix();
-    
+    //pushMatrix();
+    //translate();
+    //textFont();
+    //text();
+    //popMatrix();
     
   //}
   
